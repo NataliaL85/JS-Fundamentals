@@ -78,3 +78,51 @@ let secondsMouth = secondsDay * 30;
 alert(`В 1 часе  ${secondsHour} секунд`);
 alert(`В сутках  ${secondsDay} секунд`);
 alert(`В 1 месяце  ${secondsMouth} секунд`);
+
+//task*
+
+let seat = +prompt('Введіть номер вашого місця');
+
+if (seat % 2 !== 0) {
+   alert('У вас нижня полиця!') 
+} else {
+   alert('У вас верхня полиця!')
+} 
+if (37 <= seat) {
+   alert('Бічне місце')
+} else {
+   alert('Місце в купе')
+}
+ 
+if (1 <= seat && seat <= 4 || seat == 54 || seat == 53) {
+   alert('Ваше купе №1')
+
+ } else if (5 <= seat && seat <= 8 || seat == 52 || seat == 51) {
+   alert('Ваше купе №2')
+
+ } else if (9 <= seat && seat <= 12 || seat == 50 || seat == 49) {
+   alert('Ваше купе №3')
+
+ } else if(13 <= seat && seat <= 16 || seat == 48 || seat == 47) {
+   alert('Ваше купе №4')
+
+ } else if (17 <=seat && seat <= 20 || seat == 46 || seat == 45) {
+   alert('Ваше купе №5')
+
+ } else if (21 <= seat && seat <= 24 || seat == 44 || seat == 43) {
+   alert('Ваше купе №6')
+
+ } else if (25 <= seat && seat <= 28 || seat == 42 || seat == 41) {
+   alert('Ваше купе №7')
+
+ } else if (29 <= seat && seat <= 32 || seat == 40 || seat == 39) {
+   alert('Ваше купе №8')
+
+ } else if (33 <= seat && seat <= 36 || seat == 38 || seat == 37) {
+   alert('Ваше купе №9')
+ }
+
+ 
+
+
+
