@@ -44,6 +44,29 @@ if (isAdult < 18) {
 
 //4
 
+let arr = [4, 5, 2, 1, 6, 5, 3, 5, 2, 5];
+
+function uniq(arr) {
+    let n = arr.length;
+    let maxcount = 0;
+    let maxuniq;
+
+    for (let i = 0; i < n; i++) {
+        let count = 0;
+        for (let j = 0; j < n; j++) {
+            if (arr[i] === arr[j])
+            count++;
+        }
+
+        if (count > maxcount) {
+            maxcount = count;
+            maxuniq = arr[i]
+        }
+    }
+    return arr.filter((el) => el !== maxuniq)
+}
+
+console.log(uniq(arr))
 
 //5
 
