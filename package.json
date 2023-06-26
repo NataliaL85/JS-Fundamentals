@@ -1,0 +1,19 @@
+{
+  "name": "intro_12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaL85/JS-Fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaL85/JS-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/NataliaL85/JS-Fundamentals#readme"
+}
