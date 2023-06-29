@@ -3,7 +3,7 @@ let date = new Date()
 console.log(date);
 
  let time = date.getHours()
-export let userName = function (name) {
+ let userName = function (name) {
     
     if (23 <= time  || 5 >= time) {
         return (`Доброї ночі, ${name}`)
